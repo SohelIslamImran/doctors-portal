@@ -1,0 +1,15 @@
+.info-primary, .info-dark {
+    height: 8.8rem;
+    max-width: 26rem;
+}
+
+.info-primary {
+  background-color: #1cc7c1;
+}
+
+.info-dark {
+  background-color: #3a4256;
+}
+.info-icon {
+    font-size: 4rem;
+}

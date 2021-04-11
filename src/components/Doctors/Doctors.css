@@ -1,0 +1,14 @@
+.doctors h5 {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #1cc7c1;
+}
+
+.doctors .row h5 {
+    font-weight: 600;
+    color: #3a4256;
+}
+
+.doctors .row .phone-icon {
+    color: #1cc7c1;
+}
