@@ -1,0 +1,49 @@
+.appointment-section > h2 {
+  color: #1cc7c1;
+  font-weight: 600;
+}
+
+.appointment-section > div > div {
+  width: 76%;
+}
+
+.appointment-card {
+  border: none;
+  box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.075);
+}
+
+.appointment-card h4 {
+  color: #1cc7c1;
+}
+
+.appointment-card h6 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #3a4256;
+}
+
+.appointment-card p {
+  font-size: 14px;
+  font-weight: 200;
+}
+
+.appointment-card button {
+  border: 0;
+  background: linear-gradient(75deg, #19D3AE, #0fcfec);
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: .9rem 1rem;
+}
+
+.my-modal {
+  position: fixed;
+  width: 40%;
+  height: 400px;
+  background: #000;
+}
+
+@media (max-width: 768px) {
+  .appointment-section > div > div {
+    width: 100%;
+  }
+}

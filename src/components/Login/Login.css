@@ -1,0 +1,43 @@
+.login-page > div {
+  width: 80%;
+}
+
+.login-page .form-control {
+  border: none;
+  border-radius: 0;
+  border-bottom: 1.5px solid lightgray;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.login-page .form-control:focus {
+  box-shadow: none !important;
+  border-bottom: 1px solid #1cc7c1;
+}
+
+.login-page .btn {
+  box-shadow: none !important;
+  border: none;
+  background: linear-gradient(75deg, #0fcfec, #19d3ae);
+  font-size: 1rem;
+  padding: 0.8rem;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+.login-page .shadow {
+  box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.075) !important;
+  max-width: 40% !important;
+  margin-left: 3rem;
+}
+
+@media (max-width: 768px) {
+  .login-page > div {
+    width: 100%;
+  }
+
+  .login-page .shadow {
+    max-width: 100% !important;
+    margin: 0 1rem;
+  }
+}

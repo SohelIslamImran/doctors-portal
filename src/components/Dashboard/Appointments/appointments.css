@@ -1,0 +1,10 @@
+.appointments > .col-md-10 {
+  position: absolute;
+  right: 0;
+  background-color: #f4fdfb;
+  height: 100%;
+}
+
+.appointments > .col-md-10 > h5 {
+  font-weight: 700;
+}

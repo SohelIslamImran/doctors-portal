@@ -1,0 +1,31 @@
+.appointment-header {
+  min-height: 100vh;
+  background-image: url("../../../images/chairBg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.calender-area {
+  position: absolute;
+  margin-right: 3rem;
+  bottom: -450px;
+}
+
+.calender-area h2 {
+  font-size: 3rem;
+  color: #3a4256;
+  font-weight: 600;
+  margin: 2rem 0;
+}
+
+@media (max-width: 768px) {
+  .calender-area {
+    position: static;
+    width: 100%;
+  }
+
+  .calender-area h2 {
+    font-size: 2rem;
+    margin: 1rem 0;
+  }
+}

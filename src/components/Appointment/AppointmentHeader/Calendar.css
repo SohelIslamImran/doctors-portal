@@ -1,0 +1,104 @@
+.react-calendar {
+  border: 0;
+  box-shadow: 0 5px 15px #bfc8df41;
+  padding: 6%;
+  width: 100%;
+  height: 45rem !important;
+}
+
+.react-calendar__navigation {
+  font-size: 1.9rem;
+  color: #3a4256 !important;
+  height: 100px;
+}
+
+.react-calendar__navigation__arrow {
+  font-weight: normal !important;
+}
+
+.react-calendar__navigation__label__labelText {
+  color: #3a4256cc !important;
+}
+
+.react-calendar__month-view__weekdays {
+  font-size: 1.3rem;
+  font-weight: normal;
+  margin-bottom: 2rem;
+}
+
+.react-calendar__month-view__weekdays__weekday abbr {
+  color: #3a4256d7 !important;
+}
+
+.react-calendar__month-view__days {
+  font-size: 1.2rem;
+}
+
+.react-calendar__month-view__days button {
+  border-radius: 5px;
+  margin: 1%;
+}
+
+.react-calendar__tile--now,
+.react-calendar__tile--now:enabled:hover,
+.react-calendar__tile--now:enabled:focus {
+  background: #1cc7c171;
+  border-radius: 5px;
+  color: #ffffff !important;
+}
+
+.react-calendar__month-view__weekdays abbr[data-original-title],
+.react-calendar__month-view__weekdays abbr[title],
+.react-calendar__month-view__days__day,
+.react-calendar__month-view__weekdays,
+.react-calendar__month-view__days__day--weekend {
+  text-decoration: none;
+  color: #686868;
+  text-transform: unset;
+}
+
+.react-calendar__month-view__days__day--neighboringMonth {
+  color: #eaeaea;
+}
+
+.react-calendar__tile--active {
+  background: linear-gradient(75deg, #19d3ae, #0fcfec);
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+.react-calendar__tile--active:enabled:hover,
+.react-calendar__tile--active:enabled:focus {
+  background: linear-gradient(75deg, #19d3ae, #0fcfec);
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+.react-calendar__navigation__prev2-button,
+.react-calendar__navigation__next2-button {
+  display: none;
+}
+
+.react-calendar__navigation__next-button,
+.react-calendar__navigation__prev-button {
+  font-size: 2em;
+  opacity: 0.2;
+}
+
+.react-calendar__tile {
+  padding: 1em 0.5em;
+}
+
+@media (max-width: 768px) {
+  .react-calendar {
+    height: 33rem !important;
+  }
+
+  .react-calendar__navigation {
+    height: 50px;
+  }
+
+  .react-calendar__month-view__weekdays {
+    margin-bottom: 0;
+  }
+}

@@ -1,0 +1,26 @@
+.appointment-table {
+  height: 45rem;
+  overflow: auto;
+}
+
+.appointment-table > div > h6 {
+  color: #1cc7c1;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.appointment-table > div > p {
+  font-size: 1rem;
+  margin-right: 1rem;
+}
+
+.appointment-table table tbody tr td {
+  font-weight: 600;
+}
+
+.appointment-table table tbody tr td select {
+  background: linear-gradient(40deg, #0fcfec, #19d3ae);
+  border: none;
+  box-shadow: none !important;
+  color: white !important;
+}
